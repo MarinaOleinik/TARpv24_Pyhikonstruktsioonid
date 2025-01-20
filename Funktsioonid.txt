@@ -1,0 +1,6 @@
+print()
+input()
+type()
+int()
+float()
+str()

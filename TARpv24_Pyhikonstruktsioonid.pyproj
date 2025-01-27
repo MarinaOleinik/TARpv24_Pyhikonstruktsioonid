@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TARpv24_Pyhikonstruktsioonid.py</StartupFile>
+    <StartupFile>Tund2(Lin_prog).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
+    <Compile Include="Tund1.py" />
+    <Compile Include="Tund2%28Lin_prog%29.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />

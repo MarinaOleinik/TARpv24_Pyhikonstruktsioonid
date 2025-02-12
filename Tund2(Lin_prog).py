@@ -6,7 +6,7 @@ try:
     a=float(input("A: "))
     b=float(input("B: "))
     if a>0 and b>0:
-        print("Pindala ja ümbermõõdu rvutamine: ")
+        print("Pindala ja ümbermõõdu arvutamine: ")
         S=a*b
         P=(a+b)*2
         print(f"S={S}, P={P}")

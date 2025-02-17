@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund3(If_ laused).py</StartupFile>
+    <StartupFile>Tund4(Indeks_koos while).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,8 @@
     <Compile Include="Tund1.py" />
     <Compile Include="Tund2%28Lin_prog%29.py" />
     <Compile Include="Tund3%28If_ laused%29.py" />
+    <Compile Include="Tund4%28Indeks%29.py" />
+    <Compile Include="Tund4%28Indeks_koos while%29.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />

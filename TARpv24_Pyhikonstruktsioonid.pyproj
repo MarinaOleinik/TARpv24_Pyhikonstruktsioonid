@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
     <Compile Include="Tund1.py" />
     <Compile Include="Tund2%28Lin_prog%29.py" />

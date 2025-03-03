@@ -1,3 +1,20 @@
+#Random ja list kasutamine
+from random import *
+tehed=["+","-","*","/"]
+valitud_tehe=choice(tehed)
+print(valitud_tehe)
+if valitud_tehe=="+":
+    print("Oli valitud summa")
+
+a=randint(0,5)
+b=randint(0,5)
+print(f"Millega võrdub {a} {valitud_tehe} {b} =")
+vastus=int(input("Anna vastus:"))
+if vastus==eval(str(a)+valitud_tehe+str(b)):
+    print("Tore!")
+else:
+    print("Vale!")
+
 #Ülesanne 10
 print("Ülesanne 10")
 for j in range(10):

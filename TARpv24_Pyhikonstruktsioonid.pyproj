@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund4(Indeks_koos_while_Kordused).py</StartupFile>
+    <StartupFile>Programmid_skeemide_jargi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Programmid_skeemide_jargi.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
     <Compile Include="Tund1.py" />

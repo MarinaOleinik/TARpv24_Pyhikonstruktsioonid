@@ -1,26 +1,26 @@
 from time import *
-# #V5 3.  Rühm 20 õpilast sooritas ühe sessiooni jooksul kolm eksamit. Tehke algoritm eksamivormi täitmiseks.
-# for õ in range(20):
-#     print(f"Soritab eksamit {õ+1}. õpilane")
-#     for e in range(3):
-#         print(f"{e+1}. eksam")
+#V5 3.  Rühm 20 õpilast sooritas ühe sessiooni jooksul kolm eksamit. Tehke algoritm eksamivormi täitmiseks.
+for õ in range(20):
+    print(f"Soritab eksamit {õ+1}. õpilane")
+    for e in range(3):
+        print(f"{e+1}. eksam")
 
-# #V4 2. Koostage programmi plokkskeem, et arvutada ainult negatiivsete P antud arvude summa.
-# vastus=0
-# P=int(input("Mitu korda kordame?"))
-# while True:
-#     arv=float(input("Sisesta arv: "))
-#     if arv<0: vastus+=arv
-#     P-=1
-#     if P==0: break
-# print("Summa on: ",vastus)
+#V4 2. Koostage programmi plokkskeem, et arvutada ainult negatiivsete P antud arvude summa.
+vastus=0
+P=int(input("Mitu korda kordame?"))
+while True:
+    arv=float(input("Sisesta arv: "))
+    if arv<0: vastus+=arv
+    P-=1
+    if P==0: break
+print("Summa on: ",vastus)
 
-# vastus=0
-# P=int(input("Mitu korda kordame?"))
-# for i in range(P):
-#     arv=float(input("Sisesta arv: "))
-#     if arv<0: vastus+=arv
-# print("Summa on: ",vastus)
+vastus=0
+P=int(input("Mitu korda kordame?"))
+for i in range(P):
+    arv=float(input("Sisesta arv: "))
+    if arv<0: vastus+=arv
+print("Summa on: ",vastus)
 #V1 4. Koostage plokkskeem kotlette praadiva roboti jaoks.
 kokku=int(input("Kokku kotlete: "))
 panni_maht=int(input("Panni maht: "))

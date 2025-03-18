@@ -1,3 +1,6 @@
+
+    
+
 from time import *
 #V5 3.  Rühm 20 õpilast sooritas ühe sessiooni jooksul kolm eksamit. Tehke algoritm eksamivormi täitmiseks.
 for õ in range(20):

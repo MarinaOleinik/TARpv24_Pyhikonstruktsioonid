@@ -4,13 +4,20 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Programmid_skeemide_jargi.py</StartupFile>
+    <StartupFile>Tund6(def).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>TARpv24_Pyhikonstruktsioonid</Name>
     <RootNamespace>TARpv24_Pyhikonstruktsioonid</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <TestFramework>none</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="module1.py" />
     <Compile Include="Programmid_skeemide_jargi.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
@@ -29,9 +37,16 @@
     <Compile Include="Tund3%28If_ laused%29.py" />
     <Compile Include="Tund4%28Indeks%29.py" />
     <Compile Include="Tund4%28Indeks_koos_while_Kordused%29.py" />
+    <Compile Include="Tund5%28List%29.py" />
+    <Compile Include="Moodul_Tund6.py" />
+    <Compile Include="Tund6%28def%29.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

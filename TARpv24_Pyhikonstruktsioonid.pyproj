@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund6(def).py</StartupFile>
+    <StartupFile>Tund7_Failid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -39,10 +39,14 @@
     <Compile Include="Tund4%28Indeks_koos_while_Kordused%29.py" />
     <Compile Include="Tund5%28List%29.py" />
     <Compile Include="Moodul_Tund6.py" />
+    <Compile Include="Tund5_4.py" />
+    <Compile Include="Tund5_4_Moodul.py" />
     <Compile Include="Tund6%28def%29.py" />
+    <Compile Include="Tund7_Failid.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />
+    <Content Include="Tund7.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.11" />

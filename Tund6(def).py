@@ -1,3 +1,37 @@
+import random
+
+print("Выберите уровень сложности:")
+print("1. Легкий")
+print("2. Средний")
+print("3. Сложный")
+try:
+    difficulty = int(input("Введите номер сложности (1, 2 или 3): "))
+
+except ValueError:
+    print("Ошибка: Введите целое число (1, 2 или 3).")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 from Moodul_Tund6 import *
 #arithmetic funktsiooni kasutamine
 a=float(input("Sisesta arv 1: "))

@@ -49,10 +49,17 @@ with open('andmed_keerulised.json', 'r', encoding='utf-8') as f:
     andmed = json.load(f)
 
 sisestatud_nimi = input("Sisesta nimi: ")
-
-if andmed.get("nimi","Voti ei ole!") == sisestatud_nimi:
-    print(f"\nAutod kasutajal {sisestatud_nimi}:")
-    for auto in andmed.get("autod", []):
-        print(f"- {auto['muudel']} ({auto['varv']}, {auto['joud']} hj), number: {auto['number']}")
-else:
+leitud = False
+for kasutaja in andmed:
+    if kasutaja.get("nimi") == sisestatud_nimi:
+        leitud=True
+        autod= kasutaja.get("autod", [])
+        if autod:
+            print(f"\nAutod kasutajal {sisestatud_nimi}:")
+            for auto in autod:
+                print(f"- {auto['muudel']} ({auto['varv']}, {auto['joud']} hj), number: {auto['number']}")
+        else:
+            print("Selle inimesel ei ole autosid.")
+        break
+if not  leitud:
     print("Selle nimega kasutajat ei leitud.")

@@ -47,7 +47,20 @@ with open("ilm.json", "w", encoding="utf-8") as f:
 #keerulised andmed
 with open('andmed_keerulised.json', 'r', encoding='utf-8') as f:
     andmed = json.load(f)
-
+andmed.append(
+{
+    "nimi": "Tiiu",
+    "vanus": 30,
+    "abielus": False,
+    "lapsed": [],
+    "koduloomad": [ "kass" ],
+    "autod": [
+      
+    ]
+  }
+)
+with open("andmed_keerulised.json", "w", encoding="utf-8") as f:
+    json.dump(andmed, f, ensure_ascii=False, indent=4)
 sisestatud_nimi = input("Sisesta nimi: ")
 leitud = False
 for kasutaja in andmed:

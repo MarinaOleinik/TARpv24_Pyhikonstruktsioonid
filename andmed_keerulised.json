@@ -1,38 +1,63 @@
 [
-  {
-    "nimi": "Anna",
-    "vanus": 55,
-    "abielus": true,
-    "lapsed": [ "Inna", "Mati" ],
-    "koduloomad": null,
-    "autod": [
-      {
-        "muudel": "BMW",
-        "varv": "punane",
-        "joud": 500,
-        "number": "123ABC"
-      },
-      {
-        "muudel": "Ford",
-        "varv": "must",
-        "joud": 300,
-        "number": "321CBA"
-      }
-    ]
-  },
-  {
-    "nimi": "Jaan",
-    "vanus": 40,
-    "abielus": false,
-    "lapsed": [],
-    "koduloomad": [ "koer" ],
-    "autod": [
-      {
-        "muudel": "Toyota",
-        "varv": "valge",
-        "joud": 150,
-        "number": "789XYZ"
-      }
-    ]
-  }
+    {
+        "nimi": "Anna",
+        "vanus": 55,
+        "abielus": true,
+        "lapsed": [
+            "Inna",
+            "Mati"
+        ],
+        "koduloomad": null,
+        "autod": [
+            {
+                "muudel": "BMW",
+                "varv": "punane",
+                "joud": 500,
+                "number": "123ABC"
+            },
+            {
+                "muudel": "Ford",
+                "varv": "must",
+                "joud": 300,
+                "number": "321CBA"
+            }
+        ]
+    },
+    {
+        "nimi": "Jaan",
+        "vanus": 40,
+        "abielus": false,
+        "lapsed": [],
+        "koduloomad": [
+            "koer"
+        ],
+        "autod": [
+            {
+                "muudel": "Toyota",
+                "varv": "valge",
+                "joud": 150,
+                "number": "789XYZ"
+            }
+        ]
+    },
+    {
+        "nimi": "Tiiu",
+        "vanus": 30,
+        "abielus": false,
+        "lapsed": [],
+        "koduloomad": [
+            "kass"
+        ],
+        "autod": []
+    },
+    {
+        "nimi": "Tiiu",
+        "vanus": 30,
+        "abielus": false,
+        "lapsed": [],
+        "koduloomad": [
+            "kass"
+        ],
+        "autod": []
+    }
 ]

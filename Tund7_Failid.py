@@ -1,3 +1,46 @@
+import smtplib,ssl
+from email.message import EmailMessage
+from tkinter import filedialog
+#https://myaccount.google.com/apppasswords Rakenduste paroolid
+def saada_kiri():
+    kellele=input("Kellele saata: ")
+    teema=input("Teema: ")
+    #sisu=input("Sisu: ")
+    smtp_server='smtp.gmail.com'
+    smtp_port=587
+    kellelt="oleinik.marina@gmail.com"
+    salasõna=input("Salasõna: ") #wjaa grry wecm lmhj 
+    msg=EmailMessage()
+    msg['Subject']=teema
+    msg['From']=kellelt
+    msg['To']=kellele   
+    sisu="""
+    <!DOCTYPE html>
+    <head>
+    </head>
+        <body>
+            <h1>Oleinik tunniplaan</h1>
+            <p>Tere,</p>
+            <a href="https://thk.edupage.org/timetable/view.php?fullscreen=1">Minu tunniplaan!</a>
+        </body>
+    </html>
+"""
+    msg.set_content(sisu,subtype='html')
+    fail=filedialog.askopenfilename(title="Vali fail",filetypes=[("All files","*.*")])
+    with open(fail,'rb') as f:
+        faili_sisu=f.read()
+        faili_nimi=fail.split("/")[-1]
+        msg.add_attachment(faili_sisu,maintype="application",subtype="octet-stream",filename=faili_nimi)
+    try:
+        with smtplib.SMTP(smtp_server,smtp_port) as server:
+            server.starttls(context=ssl.create_default_context())
+            server.login(kellelt,salasõna)
+            server.send_message(msg)
+        print("Kiri saadetud!")
+    except Exception as e:
+        print("Viga:",e)
+
+saada_kiri()
 
 def Loe_failist(fail:str)->list:
     f=open(fail,'r',encoding="utf-8-sig")

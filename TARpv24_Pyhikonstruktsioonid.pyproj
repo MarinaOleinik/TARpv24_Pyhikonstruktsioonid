@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund7_Failid.py</StartupFile>
+    <StartupFile>Teema7_json.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,7 @@
     <Compile Include="Programmid_skeemide_jargi.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
+    <Compile Include="Teema7_json.py" />
     <Compile Include="Tund1.py" />
     <Compile Include="Tund2%28Lin_prog%29.py" />
     <Compile Include="Tund3%28If_ laused%29.py" />
@@ -45,7 +46,11 @@
     <Compile Include="Tund7_Failid.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="andmed_keerulised.json" />
+    <Content Include="klass.json" />
+    <Content Include="andmed.json" />
     <Content Include="Funktsioonid.txt" />
+    <Content Include="pygame.png" />
     <Content Include="Tund7.txt" />
   </ItemGroup>
   <ItemGroup>

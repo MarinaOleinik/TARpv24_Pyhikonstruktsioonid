@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema7_json.py</StartupFile>
+    <StartupFile>Teema8.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,11 +28,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Flet_kasutamine.py" />
     <Compile Include="module1.py" />
     <Compile Include="Programmid_skeemide_jargi.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
     <Compile Include="Teema7_json.py" />
+    <Compile Include="Teema8.py" />
     <Compile Include="Tund1.py" />
     <Compile Include="Tund2%28Lin_prog%29.py" />
     <Compile Include="Tund3%28If_ laused%29.py" />

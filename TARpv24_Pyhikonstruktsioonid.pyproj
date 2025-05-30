@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1bb7127e-2ae1-4774-b612-5bdb91d63678</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema8.py</StartupFile>
+    <StartupFile>DB_gui2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,12 +28,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Flet_kasutamine.py" />
+    <Compile Include="DB_gui.py" />
+    <Compile Include="DB_gui2.py" />
+    <Compile Include="DB_tkinter.py" />
+    <Compile Include="Fotoroobot.py" />
     <Compile Include="module1.py" />
     <Compile Include="Programmid_skeemide_jargi.py" />
+    <Compile Include="robot.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="TARpv24_Pyhikonstruktsioonid.py" />
     <Compile Include="Teema7_json.py" />
+    <Compile Include="Teema8%28Tk%29.py" />
     <Compile Include="Teema8.py" />
     <Compile Include="Tund1.py" />
     <Compile Include="Tund2%28Lin_prog%29.py" />
@@ -48,11 +53,20 @@
     <Compile Include="Tund7_Failid.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="alus.png" />
     <Content Include="andmed_keerulised.json" />
+    <Content Include="bee.png" />
+    <Content Include="face_base.png" />
     <Content Include="klass.json" />
     <Content Include="andmed.json" />
     <Content Include="Funktsioonid.txt" />
-    <Content Include="pygame.png" />
+    <Content Include="taustamuusika.mp3" />
+    <Content Include="lõug1.png" />
+    <Content Include="nina1.png" />
+    <Content Include="otsmik1.png" />
+    <Content Include="Poke-Ball.ico" />
+    <Content Include="silmad1.png" />
+    <Content Include="suu1.png" />
     <Content Include="Tund7.txt" />
   </ItemGroup>
   <ItemGroup>
